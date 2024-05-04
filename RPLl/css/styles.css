@@ -1,0 +1,136 @@
+/* Gaya untuk halaman daftar video pembelajaran fisika */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden; /* Menghindari scroll horizontal */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu-toggle {
+    margin-right: 10px;
+    color: #fff;
+    transition: color 0.3s ease; /* Transisi warna ikon saat hover */
+}
+
+.menu-toggle:hover {
+    color: #FFD700; /* Warna ikon saat hover */
+}
+
+.profile-wrapper {
+    margin-left: 10px;
+    color: #fff;
+    transition: color 0.3s ease; /* Transisi warna ikon saat hover */
+}
+
+.profile-wrapper:hover {
+    color: #FFD700; /* Warna ikon saat hover */
+}
+
+.menu-toggle i,
+.profile-wrapper i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #4d4d4d;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transisi warna teks menu saat hover */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Warna teks menu saat hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.Pelajaran {
+    margin-bottom: 40px;
+}
+
+.Pelajaran article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efek transisi artikel */
+}
+
+.Pelajaran article:hover {
+    transform: translateY(-5px); /* Mengangkat artikel saat hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih tebal saat hover */
+}
+
+.Pelajaran article:last-child {
+    margin-bottom: 0;
+}
+
+.Pelajaran h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.Pelajaran h3 {
+    color: #333;
+}
+
+.Pelajaran p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.Pelajaran img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Transisi warna latar belakang footer */
+}
+
+footer:hover {
+    background-color: #555; /* Warna latar belakang footer saat hover */
+}
